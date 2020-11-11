@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Digital Marketing Channels Attribution Models
-permlink: /blog/attribution-models
+permlink: /attribution-models
 ---
 
 
