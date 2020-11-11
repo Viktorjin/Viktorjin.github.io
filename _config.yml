@@ -10,8 +10,9 @@ permalink:           pretty
 # About/contact
 author:
   name:              Victor Jin
-  url:               blog
+  url:               'https://viktorjin.github.io/blog/'
   email:             jinyushanvictor@outlook.com
+  baseurl:           ''
 
 
 # Gems
