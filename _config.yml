@@ -12,7 +12,7 @@ author:
   name:              Victor Jin
   url:               
   email:             jinyushanvictor@outlook.com
-baseurl:             "vj"
+baseurl:             "blog"
 
 # Gems
 plugins:
