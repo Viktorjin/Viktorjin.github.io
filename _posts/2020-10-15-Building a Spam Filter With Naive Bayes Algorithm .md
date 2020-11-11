@@ -231,7 +231,7 @@ training_set.head()
 ## Part 3.1 Creating the Vocabulary
 Vocabulary in this context means a list with all the unique words in our training set. 
 
-<img src="/public/images/Split SMS Column into Words Columns.jpg" width =600px>
+<img src = "/public/images/Split SMS Column into Words Columns.jpg">
 
 
 ```python
@@ -634,12 +634,11 @@ training_set_clean.head()
 
 Now we're done with data cleaning and have a training set to work with, we can begin creating the spam filter. Recall that the Naive Bayes algorithm will need to know the probability value of the two equations below to be able to classify new messages. 
 
-
-<img src = "public/image/Naive Bayes Equation Part 1.jpg" width = 500px>
+<img src = "public/image/Naive Bayes Equation Part 1.jpg">
 
 To calculate $p(w^{i}|Spam)$ and $p(w^{i}|Ham)$ inside the formula above, recall that we need to use these equations: 
 
-<img src = "public/image/Naive Bayes Equation Part 2.jpg" width = 500px>
+<img src = "public/image/Naive Bayes Equation Part 2.jpg">
 
 Some of the terms in the four equations above will have the same value for every new message. As a start, let's first caculate: 
 * P(Spam) and P(Ham)
