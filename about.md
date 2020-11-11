@@ -88,8 +88,8 @@ to{opacity:1;}
 100%{opacity:1;}
 } 
 </style>
-<p class="css-typing">jinyushanvictor@outlook.com - 778-709-8990 </p>
-
+<p class="css-typing">jinyushanvictor@outlook.com</p>
+<p class="css-typing">778-709-8990 </p>
 <br>
 <hr>
 <br>
