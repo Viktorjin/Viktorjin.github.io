@@ -566,6 +566,3 @@ GROUP BY album_purchase;
 Album purchases account for 18.6% of purchases. Based on the above table. we should encourage customers to purchase only tracks from the ablum and keep the both purchase options available for potential cutomers. 
 
 
-```python
-
-```

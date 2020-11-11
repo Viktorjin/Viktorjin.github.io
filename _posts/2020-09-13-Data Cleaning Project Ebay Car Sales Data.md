@@ -81,10 +81,10 @@ autos.head()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
+        vertical-align: left;
     }
 
     .dataframe tbody tr th {
@@ -92,12 +92,12 @@ autos.head()
     }
 
     .dataframe thead th {
-        text-align: right;
+        text-align: left;
     }
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: left;">
       <th></th>
       <th>dateCrawled</th>
       <th>name</th>
@@ -300,7 +300,7 @@ autos.head(1)
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -311,12 +311,12 @@ autos.head(1)
     }
 
     .dataframe thead th {
-        text-align: right;
+        text-align: left;
     }
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: left;">
       <th></th>
       <th>date_crawled</th>
       <th>name</th>
@@ -384,7 +384,7 @@ autos.describe(include='all')
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -395,12 +395,12 @@ autos.describe(include='all')
     }
 
     .dataframe thead th {
-        text-align: right;
+        text-align: left;
     }
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: left;">
       <th></th>
       <th>date_crawled</th>
       <th>name</th>
@@ -915,7 +915,7 @@ autos['odometer_km'].describe()
 
 It is reasonable to assume more than 70% of the used car which have 150,000 milage in its odometer. 
 
-### Step 5: Exploring the "date"columns
+### Step 5: Exploring the "date" columns
 
 
 ```python
