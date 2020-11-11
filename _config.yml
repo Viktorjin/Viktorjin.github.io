@@ -1,0 +1,23 @@
+# Setup
+title:               Data Empowerment
+tagline:             ''
+description:         This is a list of data science projects that I came acorss.
+url:                 
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Victor Jin
+  url:               
+  email:             jinyushanvictor@outlook.com
+baseurl:             "vj"
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y

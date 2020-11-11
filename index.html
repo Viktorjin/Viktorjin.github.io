@@ -1,0 +1,130 @@
+---
+layout: default
+title: Home
+---
+<style>
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400);
+/* @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro); */
+
+
+/* Global */
+
+
+.css-typing
+{   position: relative;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 18px;
+    width: 50em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 1s steps(40, end);
+    animation: type 5s steps(40, end);
+}
+
+.css-typing:nth-child(2)
+{
+    white-space:nowrap;
+    overflow:hidden;    
+    opacity:0;
+    -webkit-animation: type 4s steps(40, end);
+    animation: type2 5s steps(40, end);
+    -webkit-animation-delay: 5s; 
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.css-typing:nth-child(3){
+    white-space:nowrap;
+    overflow:hidden;
+    opacity:0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type3 5s steps(40, end);
+    -webkit-animation-delay: 10s; 
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+ @keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type2{
+0%{width: 0;}
+from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+}
+@-webkit-keyframes type2{
+0%{width: 0;}
+from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+}  
+@keyframes type3{
+  0%{width: 0;}
+  from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+
+} 
+@-webkit-keyframes type3{
+  0%{width: 0;}
+  from {opacity:0;}
+1%{opacity:1;}
+to{opacity:1;}
+100%{opacity:1;}
+} 
+</style>
+
+<p class="css-typing">Hi, I'm Victor.</p>
+
+<p class="css-typing">Welcome to my site! Here is a selection of my data analysis projects. </p>
+<br>
+<hr>
+<br>
+<br>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h2 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+  </div>
+  {% endfor %}
+</div>
+
+<!-- <div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div> -->
