@@ -89,10 +89,9 @@ to{opacity:1;}
 } 
 </style>
 <p class="css-typing">jinyushanvictor@outlook.com</p>
-<p class="css-typing">778-709-8990 </p>
 <br>
 <hr>
-<br>
+
 
 
 ## Data Analyst - <small><em> *Adacado - 2018/2020*<small><em>
