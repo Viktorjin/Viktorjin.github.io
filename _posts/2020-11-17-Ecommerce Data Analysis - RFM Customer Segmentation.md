@@ -1,4 +1,9 @@
-# E-commerce Data Analysis - RFM Customer Segmentation
+---
+layout: post
+title: E-commerce Data Analysis Part Three - RFM Customer Segmentation
+permlink: /RFM_Customer_Segmentation
+---
+
 
 ## Introduction: 
 In Part Three of the E-Commerce data series, we will create customer segmentations based on RFM method and the Jenks natural breaks algorithm.  Before we jumping into the analytical part, we would adopt the same step to clean the data as the part one article.  In this part of RFM Customer Segmentaion, a RFM score will be assigned to each customer. 
@@ -86,7 +91,7 @@ data.loc[data.CustomerID.isnull(), ["UnitPrice", "Quantity"]].describe()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -269,7 +274,7 @@ rfm_user
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -395,13 +400,13 @@ rfm_user.groupby('Recency_Cluster')['Recency'].describe()
 
 
 
-![png](output_13_1.png)
+![](/public/image/output_13_1.png)
 
 
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -515,7 +520,7 @@ rfm_user.groupby('Recency_Cluster')['Recency'].describe()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -647,13 +652,13 @@ rfm_user.groupby('Frequency_Cluster')['Frequency'].describe()
 
 
 
-![png](output_17_1.png)
+![](/public/image/output_17_1.png)
 
 
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -794,13 +799,13 @@ rfm_user.groupby('Revenue_Cluster')['Revenue'].describe()
 
 
 
-![png](output_21_1.png)
+![](/public/image/output_21_1.png)
 
 
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -906,7 +911,7 @@ rfm_user.groupby('RFM_Score').agg({'Recency': 'mean', 'Frequency': 'mean', 'Reve
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -1000,7 +1005,7 @@ segments
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -1067,7 +1072,7 @@ sns.despine(left=True, bottom=True);
 ```
 
 
-![png](output_28_0.png)
+![](/public/image/output_28_0.png)
 
 
 # Conclusion: 

@@ -96,15 +96,15 @@ to{opacity:1;}
 
 
 ## Data Analyst - <small><em> *Adacado - 2018/2020*<small><em>
-* Extracted the Data From Google Big Query to build a better understanding of customer purchase journey. 
+* Extracted and interpreted Data from Google Big Query to build a better understanding of customer purchase journey. 
 * Developed data models and dashboards within business intelligence software that convert insights into actions to increase customer retention.
 * Collaborated with operations teams to imporve the campaign performance by creating custom reports on visitor behavior. 
 * Generated 43% more leads after redesigning marketing attribution model for Google Ads. Linkedin and display campaigns. 
 
 <br>
 
-## Digital Marketing Specialist - <small><em>*Fusion Communication - 2018*<small><em>
-* Reported on KPIs, user behavior and sales across channels and made suggestions on marketing decisions. 
+## Digital Marketing Analyst - <small><em>*Fusion Communication - 2018*<small><em>
+* Reported on KPIs, user behavior and sales across channels and made suggestions on marketing strategies. 
 * Became well versed in Facebook Ad Manager and launched Facebook campaigns to build hype around product launch.
 * Increased the conversion rate by 27% after replacing outdated SEM strategies.  
 * Led techinical implementation of Google Analytics with Google Tag Manager.
@@ -114,7 +114,7 @@ to{opacity:1;}
 ## Digital Marketing Analyst - <small><em>*Adeco - 2017/2018*<small><em>
 * A/B testing the landing page and improved the conversation rate from 4.08% to 9.49%.
 * Planned and executed customer loyal program via Facebook. (41% increase in sales in 6 months.)
-* Implemented E-commerce review campaign and manage the product inventor. 
+* Implemented E-commerce review campaign and manage the product inventory.  
 
 
 

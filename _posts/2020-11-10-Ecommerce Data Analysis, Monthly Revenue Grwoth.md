@@ -1,4 +1,8 @@
-# E-commerce Data Analysis - Monthly Revenue Growth Rate
+---
+layout: post
+title: E-commerce Data Analysis Part One - Data Wrangling & Monthly Revenue 
+permlink: /Montly_Revenue_Analysis
+---
 
 ## Introduction: 
 In this E-commerce Data Series, we will analyze sales data from a UK online retialer. In part one, we will be mainly focus on the data wrangling and then move on to caculate the monthly revenue growth rate. 
@@ -122,7 +126,7 @@ data[data.Description.isnull()].head()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -253,7 +257,7 @@ data[data.CustomerID.isnull()].head()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -357,7 +361,7 @@ data.loc[data.CustomerID.isnull(), ["UnitPrice", "Quantity"]].describe()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -541,7 +545,7 @@ data_clean.head(n=5)
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -940,12 +944,13 @@ df_monthly_more.style.format({"Customers": "{:.0f}", \
 
 
 
-![png](output_26_1.png)
+![](/public/image/output_26_1.png)
+
 
 
 ## Conclusion: 
 The monthly revenue fluctuates over time and we see a sharp decline in Dec 2011. Since we do not have full month data in December 2011, the monthly revenue in Dec is much lower than previous months.  From the line graph, we also saw a drop in the spring of 2011. These fluctuation may caused by credit card debts which were accumulated in previous Christmas season. Customers might also needs to file their tax during spring.  In general, the E-commerce revenue is booming for this retailer, revenue from 2010 to 2011 is going upwards and we saw a major breakthourgh for 51% month to month growth in Sep. 
 
-The next question we need to ask is: How many customer decide to come back and purchase from this retailer? 
+The next question we need to ask: How many customer decide to come back and purchase from this retailer? 
 
 In the next post, we will look into the customer cohort and retention rate. 

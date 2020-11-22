@@ -1,4 +1,9 @@
-# E-commerce Data Analysis - Customer Cohort Analysis
+---
+layout: post
+title: E-commerce Data Analysis Part Two - Customer Cohort Analysis 
+permlink: /Customer_Cohort_Analysis
+---
+
 
 ## Introduction: 
 In E-commerce Data Series Part Two, we will mainly focus on customer cohort analysis. In part one, we already went through data cleaning process, so we would follow the same steps here.  There are many benefits to adopt cohort analysis. In my personal opinion, the main goal we are trying to achieve in Cohort Analysis is form a better understanding of how customer behavior have affect on business. 
@@ -78,7 +83,7 @@ data.loc[data.CustomerID.isnull(), ["UnitPrice", "Quantity"]].describe()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -263,7 +268,7 @@ first_conversion.head()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -333,7 +338,7 @@ df_customer.head()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -478,7 +483,7 @@ plt.title('Monthly Revenue (New vs Existing)');
 ```
 
 
-![png](output_12_0.png)
+![](/public/image/new.vs.existing.png)
 
 
 ## Cohort Analysis:
@@ -498,7 +503,7 @@ data_clean
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -743,7 +748,7 @@ df_cohort.head(5)
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -821,7 +826,7 @@ cohort_pivot
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -1125,5 +1130,5 @@ with sns.axes_style("white"):
 ```
 
 
-![png](output_18_0.png)
+![](/public/image/cohort.png)
 
