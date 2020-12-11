@@ -5,6 +5,8 @@ permlink: /sql
 ---
 
 
+# Analyzing Sales Performance Using SQL
+
 ## Proejct Goals: 
 In this SQL project, we need to answer allowing questions: 
 1. What is the most popular genre in USA? 
@@ -14,7 +16,7 @@ In this SQL project, we need to answer allowing questions:
 5. Shall we keep both purchase options open? Albums vs Individual Tracks
 
 We'll use the Chinook database in this project and here is a copy of the database schema is below: 
-<img src="/public/image/Database Schema.png">
+<img src="Database Schema.png">
 
 ## Step 1.Connent to the Database
 
@@ -114,9 +116,7 @@ WHERE type IN ("table","view");
 
 
 ## Step 3. Selecting Popular Albums and Genre to Purchase
-### Q1.What's most popular genre in USA?  
-
-
+### Q1.What's most popular genre in USA? 
 
 
 ```python
@@ -242,6 +242,8 @@ ORDER BY track_sold DESC;
     </tr>
 </table>
 
+
+
 ### Q2. Which new albums the record store should purchase?
 
 Record store has just signed a deal with a new record label, and we need to select the first three albums that will be added to the store, from a list of four. 
@@ -265,6 +267,7 @@ These three genres only accounts 17% of total sales, so we should lookout for ar
 
 ## Step 4.  Analyzing Employee Sales Performance
 ### Q3. Who is the most productive sales agent? 
+
 
 ```python
 %%sql
@@ -321,7 +324,7 @@ GROUP BY 1;
 
 
 
-ane Peacock is the most productive employee in the store, and there is a 20% difference in sales between Jane and Steve. However, there is six months difference in their hiring date. This may explain why Steve ranks at the bottom. 
+Jane Peacock is the most productive employee in the store, and there is a 20% difference in sales between Jane and Steve. However, there is six months difference in their hiring date. This may explain why Steve ranks at the bottom. 
 
 ## Step 5. Analyzing Sales by Country
 ### Q4. How much our customers spent on average per order in different countries? 
